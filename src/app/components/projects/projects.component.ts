@@ -12,8 +12,30 @@ export class ProjectsComponent {
     { name: "ZENgotchi– Wellness App", image: "assets/zengotchi.jpg", description: "ZENgotchi makes wellness engaging by connecting daily habits to a virtual pet. Designed for smartwatches, users track steps, stay hydrated, monitor heart rates and complete challenges to keep their ZENgotchi happy. By blending self-care with gamification, it turns wellness into a fun and rewarding experience.", link: "https://www.figma.com/proto/xGP8e1tVN9gOgNA6O82apB/Zengotchi?node-id=1-5388&p=f&t=ZXncwjzaWHFkeyhl-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A4392" }
   ];
 
-  developmentProjects = [
-    { name: "Precision Fabricators", image: "assets/precision-fabricators.jpg", description: "A professional and responsive website for Precision Fabricators, highlighting their expertise in custom metal fabrication. Built with HTML, CSS and JavaScript, it features a sleek design, easy navigation and detailed service offerings to enhance customer engagement.", link: "https://nadeemalimohammed.github.io/precision-fabricators/" },
-    { name: "The Hyderabad Royale", image: "assets/the-hyderabad-royale.jpg", description: "A professional and responsive website for The Hyderabad Royale, showcasing their rich culinary heritage. Built with React and JavaScript, it features an elegant design, user-friendly navigation, and a detailed menu to enhance customer experience.", link: "https://nadeemalimohammed.github.io/the-hyderabad-royale/" }
-  ];
+developmentProjects = [
+  {
+    name: "FiscalX",
+    image: "assets/fiscalx.jpg",
+    description: "A clean, modern website for FiscalX Professional Corporation, designed to convey trust and professionalism. Built with React and Tailwind CSS, it includes a sleek hero section, key services, important tax dates and a contact form to streamline client interaction.",
+    link: "https://nadeemalimohammed.github.io/fiscalx/"
+  },
+  {
+    name: "Alpha Tech",
+    image: "assets/alpha-tech.jpg",
+    description: "An Angular-based e-commerce site for Alpha Tech, an electronics retailer. Features category browsing, product listings, a shopping cart, wishlist and responsive design. Styled with Bootstrap to ensure a polished, mobile-friendly experience.",
+    link: "https://nadeemalimohammed.github.io/alpha-tech/"
+  },
+  {
+    name: "Precision Fabricators",
+    image: "assets/precision-fabricators.jpg",
+    description: "A professional and responsive website for Precision Fabricators, highlighting their expertise in custom metal fabrication. Built with HTML, CSS and JavaScript, it features a sleek design, easy navigation and detailed service offerings to enhance customer engagement.",
+    link: "https://nadeemalimohammed.github.io/precision-fabricators/"
+  },
+  {
+    name: "The Hyderabad Royale",
+    image: "assets/the-hyderabad-royale.jpg",
+    description: "A professional and responsive website for The Hyderabad Royale, showcasing their rich culinary heritage. Built with React and JavaScript, it features an elegant design, user-friendly navigation, and a detailed menu to enhance customer experience.",
+    link: "https://nadeemalimohammed.github.io/the-hyderabad-royale/"
+  }
+];
 }
