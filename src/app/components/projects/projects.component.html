@@ -1,0 +1,31 @@
+<div class="container my-5">
+  <h2 class="mb-4">Projects</h2>
+
+  <h3 class="mb-3">Design Projects</h3>
+  <div class="row gx-5 gy-5">
+    <div class="col-md-6" *ngFor="let project of designProjects">
+      <div class="card">
+        <img [src]="project.image" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">{{ project.name }}</h5>
+          <p class="card-text">{{ project.description }}</p>
+          <a [href]="project.link" class="btn btn-primary">View Prototype</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="mt-5 mb-3">Development Projects</h3>
+  <div class="row gx-5 gy-5">
+    <div class="col-md-6" *ngFor="let project of developmentProjects">
+      <div class="card">
+        <img [src]="project.image" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">{{ project.name }}</h5>
+          <p class="card-text">{{ project.description }}</p>
+          <a [href]="project.link" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

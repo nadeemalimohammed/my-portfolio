@@ -1,0 +1,78 @@
+<section class="container py-5">
+  <div class="row">
+    <div class="col-12 mb-3">
+      <h2>Get in Touch</h2>
+    </div>
+  </div>
+  <div class="row d-flex align-items-stretch">
+    <!-- Contact Form Column -->
+    <div class="col-md-6 d-flex mb-4 mb-md-0">
+      <div class="card w-100">
+        <div class="card-body">
+          <h3>Send Me a Message</h3>
+          <form (ngSubmit)="sendMessage()">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" [(ngModel)]="name" name="name"
+                placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" [(ngModel)]="email" name="email"
+                placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" [(ngModel)]="message" name="message" rows="2"
+                placeholder="Write your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div *ngIf="feedback" class="mt-3">
+            <p>{{ feedback }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bring Me on Board Column -->
+    <div class="col-md-6 d-flex">
+      <div class="card w-100">
+        <div class="card-body">
+          <h3>Bring Me on Board</h3>
+          <div class="mb-3">
+            <p>🎓 Graduate of the <strong>Web Development – Front-End Design</strong> program at <strong>George Brown
+                College</strong> (Aug 2025).</p>
+          </div>
+
+          <div class="mb-3">
+            <p>💻 Founder & Front-End Developer at <strong>Coded Studio</strong>, building responsive websites and
+              user-focused digital solutions for small businesses.</p>
+          </div>
+
+          <div class="mb-4">
+            <p>🚀 Open to front-end development opportunities, collaborations and freelance projects.</p>
+          </div>
+
+          <div class="mb-4">
+            <p>If you have a project, role, or opportunity where I can contribute, let’s connect!</p>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <div class="d-flex justify-content-start mt-3">
+            <a href="https://github.com/nadeemalimohammed" class="btn btn-dark mx-2" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/nadeem-ali-mohammed" class="btn btn-primary mx-2" target="_blank">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:nadeemali.dev@gmail.com" class="btn btn-info mx-2" target="_blank">
+              <i class="fas fa-envelope"></i> Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
